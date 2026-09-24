@@ -140,7 +140,21 @@ nav {
     .hero h1 {
         font-size: 28px;
     }
+.testimonials {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f2f2f2;
+}
 
+.testimonials h2 {
+    margin-bottom: 20px;
+}
+
+.testimonials .service-box {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
     .service-box {
         width: 90%;
         margin: 15px auto;
