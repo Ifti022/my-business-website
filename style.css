@@ -193,3 +193,18 @@ nav {
 .top-btn:hover {
     transform: scale(1.05);
 }
+.social {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
