@@ -178,3 +178,18 @@ nav {
     max-width: 600px;
     margin: auto;
 }
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+}
+
+.top-btn:hover {
+    transform: scale(1.05);
+}
