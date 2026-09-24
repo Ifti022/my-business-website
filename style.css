@@ -84,3 +84,7 @@ form input, form textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.contact textarea {
+    height: 100px;
+    resize: vertical;
+}
