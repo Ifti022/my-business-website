@@ -119,3 +119,10 @@ nav {
 .btn:hover {
     transform: scale(1.05);
 }
+.service-box {
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+}
