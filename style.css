@@ -112,3 +112,10 @@ nav {
     top: 0;
     z-index: 1000;
 }
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
