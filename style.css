@@ -88,3 +88,14 @@ form input, form textarea {
     height: 100px;
     resize: vertical;
 }
+.contact {
+    padding: 30px 20px;
+}
+
+.contact form {
+    gap: 8px;
+}
+
+.contact textarea {
+    height: 70px;
+}
