@@ -107,3 +107,8 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
