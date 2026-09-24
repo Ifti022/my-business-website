@@ -150,3 +150,17 @@ nav {
         width: 90%;
     }
 }
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background: white;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+.about p {
+    max-width: 600px;
+    margin: auto;
+}
