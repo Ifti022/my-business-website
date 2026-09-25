@@ -109,6 +109,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 14px;
+    border-top: 2px solid #444;
 }
 nav {
     position: sticky;
@@ -136,6 +137,10 @@ nav {
         flex-direction: column;
         gap: 10px;
         text-align: center;
+        .social a {
+    display: inline-block;
+    margin: 8px;
+        }
     }
 
     nav a {
@@ -222,4 +227,18 @@ nav {
     font-weight: bold;
     margin-bottom: 10px;
     letter-spacing: 1px;
+}
+form button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #222;
+color: white;
+}
+
+form button:hover {
+    transform: scale(1.03);
 }
