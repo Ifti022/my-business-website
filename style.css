@@ -84,13 +84,15 @@ form input, form textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    max-width: 500px;
 }
 .contact textarea {
     height: 60px;
     resize: vertical;
 }
 .contact {
-    padding: 30px 20px;
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .contact form {
@@ -124,8 +126,10 @@ nav {
     transition: 0.3s;
 }
 
-.service-box:hover {
+..service-box:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
 }
 @media (max-width: 600px) {
     header {
@@ -135,7 +139,11 @@ nav {
     }
 
     nav a {
-        margin: 0 5px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+        }
     }
 
     .hero h1 {
